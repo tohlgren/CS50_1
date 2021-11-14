@@ -1,0 +1,31 @@
+#include <ctype.h>
+#include <cs50.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+
+int main(int argc, string argv[])
+{
+    if (argc == 2)
+    {
+
+        for (int i=0, n = strlen(argv[1]); i < n; i++)
+        {
+            if isdigit(argv[1][i])
+            {
+
+            }
+            else
+            {
+                printf("%s key\n", argv[0]);
+                return 1;
+            }
+        }
+        printf("Success\n%i\n", atoi(argv[1]));
+    }
+    else
+    {
+        printf("%s key\n", argv[0]);
+    }
+}
+
